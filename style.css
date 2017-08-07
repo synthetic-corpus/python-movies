@@ -42,3 +42,20 @@
         top: 0;
         background-color: white
     }
+
+    .poster {
+      width: 220px;
+      height: 342px;
+      position: relative;
+    }
+
+    .poster-overlay {
+      width: 220px;
+      height: 342px;
+      background-color: white;
+      position: absolute;
+      top: 20px;
+	    right: 0;
+	    bottom: 0;
+	    left: 125px;
+    }
