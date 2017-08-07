@@ -85,7 +85,7 @@ main_page_content = '''
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img title= "{log_line}" src="{poster_image_url}" class="poster">
-    <div class="poster-overlay"></div>
+    <div class="poster-overlay"><p>{log_line}</p></div>
     <h2>{movie_title}</h2>
     <em>{movie_year} - {movie_country}</em>
 </div>

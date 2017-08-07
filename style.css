@@ -29,6 +29,12 @@
         transition-property: background-color;
         transition-duration: 1s;
     }
+
+    .movie-tile:hover > .poster-overlay {
+        transition-property: opacity;
+        opacity: .7;
+        transition-duration: 1s;
+    }
     .scale-media {
         padding-bottom: 56.25%;
         position: relative;
@@ -52,10 +58,11 @@
     .poster-overlay {
       width: 220px;
       height: 342px;
-      background-color: white;
+      background-color: black;
       position: absolute;
       top: 20px;
 	    right: 0;
 	    bottom: 0;
 	    left: 125px;
+      opacity: 0;
     }
