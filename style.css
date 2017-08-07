@@ -26,6 +26,8 @@
     .movie-tile:hover {
         background-color: #603939;
         cursor: pointer;
+        transition-property: background-color;
+        transition-duration: 1s;
     }
     .scale-media {
         padding-bottom: 56.25%;
