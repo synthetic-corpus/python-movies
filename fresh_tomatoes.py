@@ -69,7 +69,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">JG'sFresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#"><h2>JG'sFresh Tomatoes Movie Trailers</h2></a>
           </div>
         </div>
       </div>

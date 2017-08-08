@@ -1,8 +1,13 @@
+    @import url('https://fonts.googleapis.com/css?family=Limelight');
 
     body {
         padding-top: 80px;
         background-color: #201313;
         color: #d9d9d9
+    }
+
+    h2 {
+      font-family: 'Limelight', cursive;
     }
     #trailer .modal-dialog {
         margin-top: 200px;
@@ -63,6 +68,7 @@
       top: 20px;
 	    right: 0;
 	    bottom: 0;
-	    left: 125px;
+	    left: 80px;
       opacity: 0;
+      padding: 15px;
     }
